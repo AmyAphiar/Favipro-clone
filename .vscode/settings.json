@@ -1,3 +1,4 @@
 {
-    "workbench.editor.centeredLayoutAutoResize": false
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "liveServer.settings.port": 5501
 }
