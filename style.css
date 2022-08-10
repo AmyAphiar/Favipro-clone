@@ -114,7 +114,7 @@ header button{
 }
 .section3{
     background-color:#FAFAFA;
-    padding: 0rem 2.5rem;
+    padding: 0rem 2.5rem 3rem;
     margin-bottom: 4rem;
 }
 .section3 .top{
@@ -143,7 +143,7 @@ header button{
     align-items: center;
     box-shadow: 0px 6px 9px rgb(233, 229, 229);
     border-radius: 0.3rem;
-    padding: .5rem;
+    padding: .8rem;
 }
 .section3 .num{
     color: #747DA9;
@@ -188,10 +188,25 @@ header button{
     color: #666667;
 }
 .section5{
+    display: flex;
     background-color: #2F3C7E;
     margin: 4rem;
     padding: 2rem;
     border-radius: 1rem;
+}
+.section5 img{
+    background-color: #EAEBF2;
+    padding: 5rem 1rem;
+    margin-right: 2rem;
+}
+.section5 h4{
+    font-size: 40px;
+    font-weight: ;
+    color: #FFFFFF;
+    margin: 1rem 0rem;
+}
+.section5 p{
+    color: #FEFBFB;
 }
 footer{
     background-color: #D5D8E5;
