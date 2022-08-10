@@ -5,17 +5,28 @@ header{
     display: flex;
     justify-content: space-around;
     margin: auto;
+    padding: 0rem 4rem;
+}
+header img{
+    max-height:3.4rem;
 }
 header .links{
-    color: #B2B2B3;
     display: flex;
     justify-content: space-around;
-    width: 33%;
+    width: 30%;
     margin: auto;
-    padding:.4rem;
+    padding-left: 8rem;
+}
+p{
+    color: #262626;
 }
 a{
-    color: #B2B2B3;
+    color: #273269;
+    text-decoration: none;
+}
+a :hover{
+    color: #2F3C7E;
+    text-decoration: underline;
 }
 header .links :hover{
     color: #525D93;
@@ -28,7 +39,6 @@ header button{
     border-color: #747DA9;
     padding: .7rem 2rem;
 }
-
 #sign-in{
     color:#747DA9;
     background-color: #ffffff;
@@ -36,21 +46,15 @@ header button{
     border-color: #747DA9;
     padding: .7rem 2rem;
 }
-a{
-    text-decoration: none;
-}
-a :hover{
-    color: #2F3C7E;
-    text-decoration: underline;
-}
 .section1{
+    background-image: url("Images/Frame 5746.png");
     text-align: center;
-    margin: 7% 28%;
+    padding: 1.5rem 20rem 4rem;
     justify-content: center;
 }
 .section1 h1{
-    color: #525D93;
-    font-size: 3rem;
+    color: #273269;
+    font-size: 2.5rem;
 }
 .section1 button{
     color: #ffffff;
@@ -70,10 +74,142 @@ a :hover{
     justify-content: space-around;
     margin: auto;
     height: 5rem;
+    padding: 0rem 3rem;
 }
 .section2{
-
+    padding: 1rem 3rem 3rem;
+}
+.section2 .whatWeOffer{
+    color: #747DA9;
+    margin: 2rem 0rem 0rem;
+}
+.section2 #Favipro{
+    color: #2F3C7E;
+}
+.section2 p{
+    font-size:1.5rem;
 }
 .whyFavipro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.whyFavipro div{
+    border: 1px solid #747DA9;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.whyFavipro h6{
+    color: #2F3C7E;
+    font-size: 24px;
+}
+.whyFavipro p{
+    color: #1A1A1A;
+    font-size: 20px;
+}
+.whyFavipro a{
+    color: #525D93;
+    font-size: 16px;
+}
+.section3{
+    background-color:#FAFAFA;
+    padding: 0rem 2.5rem;
+    margin-bottom: 4rem;
+}
+.section3 .top{
+    text-align: center;
+}
+.section3 h4{
+    color: #2F3C7E;
+    font-size: 40px;
+    margin-bottom: 0.6rem;
+}
+.section3 h6{
+    color: #1A1A1A;
+    font-size: 24px;
+    margin: .6rem 0rem;
+}
+.section3 p{
+    margin-top: 0.35rem;
+    color: #1A1A1A;
+    font-size: 20px;
+}
+.section3 .btm{
+    margin: 0.2rem 6.3rem;
+}
+.section3 .rectangle{
     display: flex;
+    align-items: center;
+    box-shadow: 0px 6px 9px rgb(233, 229, 229);
+    border-radius: 0.3rem;
+    padding: .5rem;
+}
+.section3 .num{
+    color: #747DA9;
+    border: 1px solid #747DA9;
+    border-radius: 50%;
+    padding: .2rem;
+    margin: 0rem 1rem;
+}
+.section4{
+    margin: 1rem 4rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    background-color: #D5D8E5;
+}
+.section4 h5{
+    color: #2F3C7E;
+}
+.section4 .comments{
+    display: flex;
+}
+.section4 #Favipro{
+    color: #2F3C7E;
+}
+.section4 p{
+    font-size:1.5rem;
+}
+.section4 .comments{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section4 .comments div{
+    background-color: #FFFFFF;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.section4 .comments h6{
+    color: #333333;
+    font-size: 18px;
+}
+.section4 .comments #role{
+    font-size: 16px;
+    color: #666667;
+}
+.section5{
+    background-color: #2F3C7E;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+footer{
+    background-color: #D5D8E5;
+    padding: 3rem 4rem;
+}
+footer .ftr-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .ftr-rt{
+    display: flex;
+    justify-content: space-around;
+}
+footer h4{
+    color: #2F3C7E;
+}
+footer p{
+    color: #525D93;
+}
+footer .copyright{
+    font-size: 14px;
 }
