@@ -593,9 +593,6 @@ footer .copyright p{
   footer .ftr-lt{
     margin: 2rem 3.5rem;
   }
-  footer .ftr-rt{
-    display: flex;
-  }
 }
 @media (max-width:604px){
   header{
@@ -808,16 +805,6 @@ footer .copyright p{
     padding: 2rem 2rem;
     margin: 0;
   }
-  footer .ftr-top{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2rem;
-  }
-  footer .ftr-rt{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-  }
   footer h5, h6{
     color: #2F3C7E;
     margin:0 ;
@@ -843,6 +830,14 @@ footer .copyright p{
     margin-bottom: 1rem;
     padding: 0px, 12px;
   }
+  footer .ftr-rt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+  }
+  footer .ftr-rt div{
+    margin: 0rem 2rem 2rem 0rem;
+  }
   ::placeholder{
     font-size: 14.5px;
     font-weight: 400;
@@ -858,6 +853,7 @@ footer .copyright p{
     flex-direction: column;
     padding: 0;
     margin-left: 0rem;
+    padding-bottom: 2rem;
   }
   footer .ftr-lt{
     margin: 2rem 0rem;
