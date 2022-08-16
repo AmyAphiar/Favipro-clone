@@ -899,3 +899,67 @@ footer .copyright p{
     width: 290px;
   }
 }
+@media (max-width:280px){
+  header img{
+    max-width: 3rem;
+  }
+  header .links{
+    display: flex;
+    width: 45%;
+  }
+  header button{
+    width: 32px;
+    padding-inline: 0;
+    margin-left: 0;
+  }
+  .section1{
+    padding: 0rem 0.1rem;
+  }
+  .section1 h2{
+    font-size: 256x;
+  }
+  .section1 .tick{
+    margin-inline: .5rem .1rem;
+    width: .7rem;
+  }
+  .section1 button{
+    height: 30px;
+    width: 90px;
+    padding: 0px;
+    margin: -0rem 0.1rem 0rem ;
+  } 
+  .section2{
+    padding-inline: 0;
+  }
+  .section3{
+    padding-inline: 0;
+  } 
+  .section4{
+    margin-inline: 0;
+  }
+  .section4 h4{
+    font-size: 18px;
+  }
+  .section5{
+    margin-inline: 0;
+  }
+  .ftr-top .ftr-lt input{
+    width: 220px;
+    height: 30px;
+  }
+  footer .ftr-rt{
+    display: flex;flex-direction: column;
+    justify-content: space-around;
+  }
+  footer .ftr-rt div{
+    margin-bottom: 0rem;
+  }
+  .copyright img{
+    width: .7rem;
+    height: .7rem;
+    margin-right: 3px;
+  }
+  footer .copyright p{
+    font-size: 10px;
+  }
+}
