@@ -899,7 +899,7 @@ footer .copyright p{
     width: 290px;
   }
 }
-@media (max-width:280px){
+@media (max-width:290px){
   header img{
     max-width: 3rem;
   }
