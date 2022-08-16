@@ -885,6 +885,19 @@ footer .copyright p{
   font-weight: 400;
   line-height: 22px;
   }
+  .section1 button{
+    color: #ffffff;
+    background-color: #2F3C7E;
+    height: 44px;
+    width: 125px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    border: 1px solid #2F3C7E;
+    padding: 12px, 24px;
+    margin: -0rem 0.6rem 0rem ;
+  }
   .section1 .tick{
     margin-inline: .5rem .1rem;
     width: 1rem;
