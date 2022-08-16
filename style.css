@@ -65,7 +65,7 @@ hr{
   background-color: #ffffff;
 }
 .section1{
-  background-image: url("../Images/Frame 5746.png");
+  background-image: url("Images/Frame 5746.png");
   background-size: 100%;
   text-align: center;
   padding: 4rem 22rem 4rem;
@@ -901,14 +901,5 @@ footer .copyright p{
   }
   .ftr-top .ftr-lt input{
     width: 290px;
-  }
-  footer .ftr-top{
-    margin-left: 0rem;
-  }
-  footer .ftr-lt{
-    margin: 2rem 3.5rem;
-  }
-  footer .ftr-rt{
-    display: flex;
   }
 }
